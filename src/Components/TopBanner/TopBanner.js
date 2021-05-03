@@ -25,7 +25,7 @@ const TopBanner = () => {
       <br/>
       <br/>
       <br/>
-      <a href="https://drive.google.com/file/d/1fDJCt5QRi4-xm2I2abJ_nlH4mVKhhPkX/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">MY RESUME</a>
+      <a className="resume" href="https://drive.google.com/file/d/1fDJCt5QRi4-xm2I2abJ_nlH4mVKhhPkX/view?usp=sharing" target="_blank" rel="noreferrer">MY RESUME</a>
              </Col>
             <Col className="" xs={6} md={4}>
             

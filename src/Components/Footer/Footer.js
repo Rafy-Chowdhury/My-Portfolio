@@ -1,20 +1,27 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './Footer.css';
-import fb from '../../image/fb.png';
-import github from '../../image/github.png';
-import linkedin from '../../image/in.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
+
+
 
 const Footer = () => {
     return (
-        <div id="footer" className="container footer  mt-5">
+        <div id="footer" className="footer  mt-5">
             <Row>
                 <Col className="text-center" xs={12} md={12}>
                 <h2>MY PORTFOLIO</h2>
+
+
                 <div>
-                <a href="https://web.facebook.com/capricious.jaran" target="_blank" rel="noreferrer"><img src={fb} alt="logo" /></a>
-                <a href="https://github.com/Rafy-Chowdhury" target="_blank" rel="noreferrer"><img src={github} alt="logo" /></a>
-                <a href="https://www.linkedin.com/in/rafy-chowdhury-0954961ba/" target="_blank" rel="noreferrer"><img src={linkedin} alt="logo" /></a>
+                    
+                <a className="icons" href="https://web.facebook.com/capricious.jaran" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+
+                <a className="icons" href="https://github.com/Rafy-Chowdhury" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+
+                <a className="icons" href="https://www.linkedin.com/in/rafy-chowdhury-0954961ba/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 
                 
                 

@@ -5,9 +5,17 @@
     border-radius: 50%;
 }
 .resume{
+    text-decoration: none;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 4px;
     color: white;
     background-color: gray;
 }
+.resume:hover{
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+   
+}
+

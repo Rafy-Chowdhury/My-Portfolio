@@ -4,7 +4,7 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div className="container">
+        <div>
             
             <Navbar bg="light" expand="lg">
   
