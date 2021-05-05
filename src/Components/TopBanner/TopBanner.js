@@ -2,16 +2,22 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Typed from 'react-typed';
 import logo from '../../image/me.jpg';
+import ParticleBackground from '../ParticleJs/ParticleBackground';
+import Navigation from '../Navigation/Navigation';
 import './TopBanner.css';
+
 
 const TopBanner = () => {
     return (
-       <div style={{marginTop:30}} className="container">
+        <div style={{backgroundColor: "#20191a"}}>
+            <ParticleBackground/>
+            <Navigation/>
+       <div style={{padding: "50px"}} className="container">
           
             <Row>
              <Col xs={12} md={8}>
-      <h1>I'm, <br/> RAFY CHOWDHURY</h1>
-      <Typed style={{fontSize: 50}}
+      <h1 style={{color: "white"}}>I'm, <br/> RAFY CHOWDHURY</h1>
+      <Typed style={{fontSize: "50px", color: "white"}}
         strings={[
             
             'Im a web Developer',
@@ -32,6 +38,8 @@ const TopBanner = () => {
             <img className="image" src={logo} alt="Rafy Chowdhury" />
             </Col>
             </Row>
+       </div>
+       
        </div>
     );
 };
