@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import Projects from '../projects/Projects';
 
 import SendMail from '../SendMail/SendMail';
 import TopBanner from '../TopBanner/TopBanner';
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             
             <TopBanner/>
+            <Projects/>
             <SendMail/>
             <Footer/>
             
