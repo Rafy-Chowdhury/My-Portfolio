@@ -35,7 +35,7 @@ const SendMail = () => {
             <textarea className="form-control" id="" cols="30" row="8" placeholder="Your message" name="message" ></textarea>
            </div>
            <div className="col-8 pt-3 mx-auto">
-            <input type="submit" className="btn btn-secondary" value="Send Message"></input>
+            <input type="submit" style={{border: "1px solid crimson", backgroundColor: "crimson", color: "white"}} className="btn" value="Say hello"></input>
            </div>
            </div>
          </form>

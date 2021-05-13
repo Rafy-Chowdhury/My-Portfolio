@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -12,7 +12,7 @@ const Footer = () => {
         <div id="footer" className="footer  mt-5">
             <Row>
                 <Col className="text-center" xs={12} md={12}>
-                <h2>MY PORTFOLIO</h2>
+                
 
 
                 <div>
@@ -26,8 +26,8 @@ const Footer = () => {
                 
                 
                 </div>
-                <h2>Copyright &copy;2021</h2>
-                <h2>Designed By: RAFY CHOWDHORY</h2>
+                
+                <h3> <i>Created by <span style={{color:"crimson"}}>RAFY CHOWDHORY</span></i></h3>
                 
                 </Col>
             </Row>

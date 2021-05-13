@@ -22,9 +22,9 @@ const Projects = () => {
 
 
     return (
-        <div style={{backgroundColor: "red"}} className="mt-5">
+        <div style={{backgroundColor: "crimson"}} className="">
             <div>
-                <h2 style={{position: "relative", top: "30px"}} className="text-center">My Projects </h2>
+                <h2 style={{position: "relative", top: "30px", color: "white"}} className="text-center">My Projects </h2>
             </div>
             <div style={{padding: "50px"}} className="container">
                 <div className="row">

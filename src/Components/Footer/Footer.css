@@ -1,6 +1,6 @@
 .footer{
     color: white;
-    background-color: gray;
+    background-color: #20191a;
 }
 .footer img{
     width: 50px;
@@ -17,5 +17,5 @@
 }
 .icons:hover{
     font-size: 50px;
-    color:bisque;
+    color: crimson;
 }
