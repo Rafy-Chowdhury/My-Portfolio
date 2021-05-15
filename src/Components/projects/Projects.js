@@ -33,7 +33,7 @@ const Projects = () => {
                 }
                 </div>
                 <div className="mt-5 text-center">
-                    <button style={{backgroundColor: "gray", color: "white",border: "1px solid gray", borderRadius: "5px"}}>More Projects</button>
+                    <button style={{backgroundColor: "#20191a", color: "white",border: "2px solid #20191a", borderRadius: "5px", padding: "5px"}}>More Projects</button>
                 </div>
             </div>
         </div>

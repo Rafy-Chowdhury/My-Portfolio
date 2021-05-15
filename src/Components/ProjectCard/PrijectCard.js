@@ -6,7 +6,7 @@ const PrijectCard = ({data}) => {
 
     return (
         <div className="col-md-4 text-center mt-5">
-            <Card style={{ width: '18rem', height: '14rem', backgroundColor: "black", color:"white"}}>
+            <Card style={{ width: '18rem', height: '14rem', backgroundColor: "#20191a", color:"white"}}>
     <Card.Body>
     <Card.Title>{title}</Card.Title>
     
