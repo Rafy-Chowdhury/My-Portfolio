@@ -1,14 +1,15 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import WOW from 'wowjs';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faEnvelopeOpenText, faHouseUser, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => {
+  new WOW.WOW().init();
     return (
         <div>
-            <div style={{padding: "50px"}} className="container">
+            <div style={{padding: "50px"}} className="container wow slideInDown" data-wow-iteration="1">
                      <div className="text-center">
                         <h1>About Me</h1>
                     </div>
