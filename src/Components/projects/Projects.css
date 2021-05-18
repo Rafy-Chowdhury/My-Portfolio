@@ -1,0 +1,14 @@
+.headerStyling{
+    position: relative; 
+    top: 30px;
+    color: white;
+}
+.headerStyling::after{
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    width: 90px;
+    border-bottom: 5px solid crimson;
+    transform: translateX(-50%);
+}

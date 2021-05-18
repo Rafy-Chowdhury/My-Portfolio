@@ -5,6 +5,7 @@ import Projects from '../projects/Projects';
 import SendMail from '../SendMail/SendMail';
 import TopBanner from '../TopBanner/TopBanner';
 import './Home.css';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const Home = () => {
     
@@ -16,6 +17,7 @@ const Home = () => {
                     <Projects/>
                     <SendMail/>
                     <Footer/>
+                    <MessengerCustomerChat pageId="101122885505738" appId="140511544731448" />
                 </div>
 
     );

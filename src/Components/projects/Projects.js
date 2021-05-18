@@ -1,5 +1,6 @@
 import React from 'react';
 import PrijectCard from '../ProjectCard/PrijectCard';
+import './Projects.css';
 
 const Projects = () => {
     const fakeData = [
@@ -27,7 +28,7 @@ const Projects = () => {
     return (
         <div style={{backgroundColor: "#20191a"}} className="">
             <div>
-                <h2 style={{position: "relative", top: "30px", color: "white"}} className="text-center">My Projects </h2>
+                <h2 className="text-center headerStyling">My Projects </h2>
             </div>
             <div style={{padding: "50px"}} className="container">
                 <div className="row">

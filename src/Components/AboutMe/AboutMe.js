@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import WOW from 'wowjs';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faEnvelopeOpenText, faHouseUser, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import './AboutMe.css';
 
 const AboutMe = () => {
   new WOW.WOW().init();
@@ -11,7 +12,7 @@ const AboutMe = () => {
         <div>
             <div style={{padding: "50px"}} className="container wow slideInDown" data-wow-iteration="1">
                      <div className="text-center">
-                        <h1>About Me</h1>
+                        <h1 className="styling">About Me</h1>
                     </div>
                 <Row className="mt-5">
                     <Col xs={12} md={6}>

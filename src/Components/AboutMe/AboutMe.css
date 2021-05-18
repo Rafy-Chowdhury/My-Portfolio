@@ -1,12 +1,13 @@
-.TouchStyling{
+.styling{
     position: relative;
 }
-.TouchStyling::after{
+.styling::after{
     content: "";
     position: absolute;
     bottom: -17%;
     left: 50%;
-    width: 110px;
+    width: 90px;
     border-bottom: 5px solid crimson;
     transform: translateX(-50%);
 }
+    
