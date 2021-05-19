@@ -8,7 +8,7 @@ const Navigation = () => {
       <div style={{backgroundColor: 'crimson'}}>
         <div className="container">          
   <Navbar expand="lg">
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Toggle style={{backgroundColor: 'white'}} aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link style={{color: 'white'}} href="#home">Home</Nav.Link>
