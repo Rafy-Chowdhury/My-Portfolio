@@ -12,7 +12,7 @@ const Navigation = () => {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link style={{color: 'white'}} href="#home">Home</Nav.Link>
-      <Nav.Link style={{color: 'white'}} href="#footer">Blog</Nav.Link>
+      <Nav.Link style={{color: 'white'}} href="https://rafichowdhury115.medium.com/">Blog</Nav.Link>
       <Nav.Link style={{color: 'white'}} href="#footer">About</Nav.Link>
       <Nav.Link style={{color: 'white'}} href="#footer">Contact</Nav.Link>
     </Nav>
