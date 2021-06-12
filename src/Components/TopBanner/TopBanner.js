@@ -4,7 +4,6 @@ import Typed from 'react-typed';
 import logo from '../../image/me.jpg';
 import WOW from 'wowjs';
 import ParticleBackground from '../ParticleJs/ParticleBackground';
-import Navigation from '../Navigation/Navigation';
 import './TopBanner.css';
 
 
@@ -12,9 +11,8 @@ const TopBanner = () => {
     new WOW.WOW().init();
     
     return (
-        <div style={{backgroundColor: "#20191a"}}>
+        <div id="home" style={{backgroundColor: "#20191a"}}>
             <ParticleBackground/>
-            <Navigation/>
        <div style={{padding: "50px"}} className="container">
           
             <Row>

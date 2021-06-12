@@ -6,13 +6,15 @@ import SendMail from '../SendMail/SendMail';
 import TopBanner from '../TopBanner/TopBanner';
 import './Home.css';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Navigation from './../Navigation/Navigation';
 
 const Home = () => {
     
     return (
        
                 <div>
-                <TopBanner/>
+                    <Navigation/>
+                    <TopBanner/>
                     <AboutMe/>
                     <Projects/>
                     <SendMail/>

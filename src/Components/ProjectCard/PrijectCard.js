@@ -8,7 +8,7 @@ const PrijectCard = ({data}) => {
   new WOW.WOW().init();
 
     return (
-        <div className="col-md-4 text-center mt-5">
+        <div className="col-md-4 col-sm-12 text-center mt-5">
             <Card className="wow zoomIn" data-wow-iteration="1" style={{ width: '18rem', height: 'auto', backgroundColor: "crimson", color:"white"}}>
             
               <Card.Body>

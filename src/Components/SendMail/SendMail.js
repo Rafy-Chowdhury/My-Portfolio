@@ -18,7 +18,7 @@ const SendMail = () => {
 
     
     return (
-        <div className="container mt-5">
+        <div id="contact" className="container mt-5">
           <h1 className="text-center TouchStyling">Get In Touch</h1>
          <form onSubmit={HandleMail}>
          <div className="row pt-5 mx-auto">

@@ -9,7 +9,7 @@ import './AboutMe.css';
 const AboutMe = () => {
   new WOW.WOW().init();
     return (
-        <div>
+        <div id="about">
             <div style={{padding: "50px"}} className="container wow slideInDown" data-wow-iteration="1">
                      <div className="text-center">
                         <h1 className="styling">About Me</h1>

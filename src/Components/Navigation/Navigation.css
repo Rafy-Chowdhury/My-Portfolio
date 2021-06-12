@@ -1,0 +1,12 @@
+.fixedNav{
+    background-attachment: fixed;
+}
+.links{
+    color: white;
+    margin: 10px;
+    font-weight: bold;;
+}
+.links:hover{
+    text-decoration: none;
+    color: black;
+}
